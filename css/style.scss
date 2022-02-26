@@ -70,6 +70,10 @@ $darkerThemeColor: #018f85;
     color: $textColor;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Monsterrat', sans-serif;
     background-color: $backgroundColor;
@@ -85,6 +89,10 @@ hr {
     margin-top: 50px;
     border: none;
     background-image: linear-gradient(to right, $backgroundColor, $textColor, $backgroundColor)
+}
+
+a {
+    text-decoration: none;
 }
 
 /* Landing Section */
@@ -103,6 +111,9 @@ hr {
         position: relative;
         z-index: 100;
         @include buttonHover();
+        a:hover {
+            color: black;
+        }
     }
     #arrow-img {
         height: 50px;
@@ -188,6 +199,7 @@ div.sticky {
     gap: 50px;
     h1 {
         width: 175px;
+        font-size: 30px;
         background: linear-gradient($darkerThemeColor 50%, $backgroundColor 50%)
     }
     a {
@@ -224,6 +236,7 @@ div.sticky {
     position: relative;
     opacity: 0;
     h1 {
+        font-size: 30px;
         width: 175px;
         background: linear-gradient($darkerThemeColor 50%, $backgroundColor 50%);
     }

@@ -5,6 +5,10 @@
   color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Monsterrat', sans-serif;
   background-color: #1b1f23;
@@ -21,6 +25,10 @@ hr {
   border: none;
   background-image: -webkit-gradient(linear, left top, right top, from(#1b1f23), color-stop(white), to(#1b1f23));
   background-image: linear-gradient(to right, #1b1f23, white, #1b1f23);
+}
+
+a {
+  text-decoration: none;
 }
 
 /* Landing Section */
@@ -87,6 +95,10 @@ hr {
 .landing-container button:hover {
   color: black;
   cursor: pointer;
+}
+
+.landing-container button a:hover {
+  color: black;
 }
 
 .landing-container #arrow-img {
@@ -214,6 +226,7 @@ div.sticky {
 
 .about-section h1 {
   width: 175px;
+  font-size: 30px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #018f85), color-stop(50%, #1b1f23));
   background: linear-gradient(#018f85 50%, #1b1f23 50%);
 }
@@ -303,6 +316,7 @@ div.sticky {
 }
 
 .skills-section h1 {
+  font-size: 30px;
   width: 175px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, #018f85), color-stop(50%, #1b1f23));
   background: linear-gradient(#018f85 50%, #1b1f23 50%);
