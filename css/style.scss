@@ -444,25 +444,25 @@ footer {
     animation-fill-mode: forwards;
 }
 
-#skills-img-2.img2-animate {
+#skills-img-2.img1-animate {
     animation: img2-animate .7s linear;
     animation-delay: .15s;
     animation-fill-mode: forwards;
 }
 
-#skills-img-3.img3-animate {
+#skills-img-3.img1-animate {
     animation: img3-animate .7s linear;
     animation-delay: .30s;
     animation-fill-mode: forwards;
 }
 
-#skills-img-4.img4-animate {
+#skills-img-4.img1-animate {
     animation: img4-animate .7s linear;
     animation-delay: .45s;
     animation-fill-mode: forwards;
 }
 
-#skills-img-5.img5-animate {
+#skills-img-5.img1-animate {
     animation: img5-animate .7s linear;
     animation-delay: .60s;
     animation-fill-mode: forwards;
@@ -472,38 +472,8 @@ footer {
     animation: grid-animate 1s linear;
 }
 
-.project-info-1.project-1-animate {
+.project-info.project-1-animate {
     animation: project-1-animate .9s linear;
-    animation-delay: .5s;
-    animation-fill-mode: forwards;
-}
-
-.project-info-2.project-2-animate {
-    animation: project-2-animate .9s linear;
-    animation-delay: .5s;
-    animation-fill-mode: forwards;
-}
-
-.project-info-3.project-3-animate {
-    animation: project-3-animate .9s linear;
-    animation-delay: .5s;
-    animation-fill-mode: forwards;
-}
-
-.project-info-4.project-4-animate {
-    animation: project-4-animate .9s linear;
-    animation-delay: .5s;
-    animation-fill-mode: forwards;
-}
-
-.project-info-5.project-5-animate {
-    animation: project-5-animate .9s linear;
-    animation-delay: .5s;
-    animation-fill-mode: forwards;
-}
-
-.project-info-6.project-6-animate {
-    animation: project-6-animate .9s linear;
     animation-delay: .5s;
     animation-fill-mode: forwards;
 }

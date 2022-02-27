@@ -660,7 +660,7 @@ footer img {
           animation-fill-mode: forwards;
 }
 
-#skills-img-2.img2-animate {
+#skills-img-2.img1-animate {
   -webkit-animation: img2-animate .7s linear;
           animation: img2-animate .7s linear;
   -webkit-animation-delay: .15s;
@@ -669,7 +669,7 @@ footer img {
           animation-fill-mode: forwards;
 }
 
-#skills-img-3.img3-animate {
+#skills-img-3.img1-animate {
   -webkit-animation: img3-animate .7s linear;
           animation: img3-animate .7s linear;
   -webkit-animation-delay: .30s;
@@ -678,7 +678,7 @@ footer img {
           animation-fill-mode: forwards;
 }
 
-#skills-img-4.img4-animate {
+#skills-img-4.img1-animate {
   -webkit-animation: img4-animate .7s linear;
           animation: img4-animate .7s linear;
   -webkit-animation-delay: .45s;
@@ -687,7 +687,7 @@ footer img {
           animation-fill-mode: forwards;
 }
 
-#skills-img-5.img5-animate {
+#skills-img-5.img1-animate {
   -webkit-animation: img5-animate .7s linear;
           animation: img5-animate .7s linear;
   -webkit-animation-delay: .60s;
@@ -701,54 +701,9 @@ footer img {
           animation: grid-animate 1s linear;
 }
 
-.project-info-1.project-1-animate {
+.project-info.project-1-animate {
   -webkit-animation: project-1-animate .9s linear;
           animation: project-1-animate .9s linear;
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.project-info-2.project-2-animate {
-  -webkit-animation: project-2-animate .9s linear;
-          animation: project-2-animate .9s linear;
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.project-info-3.project-3-animate {
-  -webkit-animation: project-3-animate .9s linear;
-          animation: project-3-animate .9s linear;
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.project-info-4.project-4-animate {
-  -webkit-animation: project-4-animate .9s linear;
-          animation: project-4-animate .9s linear;
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.project-info-5.project-5-animate {
-  -webkit-animation: project-5-animate .9s linear;
-          animation: project-5-animate .9s linear;
-  -webkit-animation-delay: .5s;
-          animation-delay: .5s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-.project-info-6.project-6-animate {
-  -webkit-animation: project-6-animate .9s linear;
-          animation: project-6-animate .9s linear;
   -webkit-animation-delay: .5s;
           animation-delay: .5s;
   -webkit-animation-fill-mode: forwards;
