@@ -50,6 +50,11 @@ a {
   width: 100vw;
   -webkit-clip-path: inset(0);
           clip-path: inset(0);
+  background-color: #070724;
+  background-image: url(../img/background-stars.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .landing-container h1 {
@@ -1137,6 +1142,24 @@ footer img {
     -webkit-transform: translateX(0);
             transform: translateX(0);
     opacity: 1;
+  }
+}
+
+@-webkit-keyframes slideshow {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -200%;
+  }
+}
+
+@keyframes slideshow {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -200%;
   }
 }
 
