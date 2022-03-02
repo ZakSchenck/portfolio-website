@@ -68,6 +68,7 @@ $darkerThemeColor: #018f85;
 * {
     margin: 0;
     color: $textColor;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html {
@@ -75,7 +76,7 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    
     background-color: $backgroundColor;
 }
 
@@ -289,7 +290,8 @@ div.sticky {
         margin-left: auto;
         margin-right: auto;
         position: relative;
-        box-shadow: 8px 10px $themeColor;
+        box-shadow: 5px 7px 15px $themeColor;
+
         .project-info {
             position: absolute;
             top: 0;
