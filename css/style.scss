@@ -95,6 +95,12 @@ a {
     text-decoration: none;
 }
 
+#background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 /* Landing Section */
 .landing-container {
     @include flexCenterMain(column);
@@ -103,12 +109,11 @@ a {
     width: 100vw;
     clip-path: inset(0);
     background-color: #070724;
-    #background-image {
+    #landing-bg {
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        opacity: .3;
     }
     h1 {
         font-size: 50px;
