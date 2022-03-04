@@ -59,8 +59,11 @@ let textArray = greetingsText.innerText.split('');
 
     setInterval(function () {
         developerText.classList.add('dev-animate')
-    }, 3000)
+    }, 3050)
 
     setInterval(function () {
         codeLinkButton.classList.add('dev-animate-button')
-    }, 3300)
+    }, 3650)
+
+
+    
