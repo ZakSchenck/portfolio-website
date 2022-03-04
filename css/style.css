@@ -1362,6 +1362,9 @@ footer img {
   form {
     width: 95%;
   }
+  .landing-container a button {
+    font-size: 13px;
+  }
 }
 
 @media all and (max-width: 399px) {
