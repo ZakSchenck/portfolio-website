@@ -63,7 +63,7 @@ let textArray = greetingsText.innerText.split('');
 
     setInterval(function () {
         codeLinkButton.classList.add('dev-animate-button')
-    }, 2900)
+    }, 3000)
 
 
     
