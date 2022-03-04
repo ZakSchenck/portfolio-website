@@ -96,6 +96,26 @@ a {
     text-decoration: none;
 }
 
+/* Loading Section */
+.load-wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: $backgroundColor;
+    z-index: 200;
+    display: flex;
+    position: fixed;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    div {
+        height: 25px;
+        width: 25px;
+        background-color: $themeColor;
+        border-radius: 50%;
+        animation: load 1s linear infinite;
+    }
+}
+
 /* Landing Section */
 .landing-container {
     @include flexCenterMain(column);
@@ -734,6 +754,12 @@ footer {
           100% {
             opacity: 1;
           }
+    }
+
+    @keyframes load {
+        0% {transform: scale(0); background-color: $themeColor;}
+        50% {transform: scale(1.2); background-color: #163836;}
+        100% {transform: scale(0); background-color: $darkerThemeColor;}
     }
 
 /* Media Queries */

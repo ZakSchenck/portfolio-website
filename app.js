@@ -7,6 +7,11 @@ let developerText = document.querySelector('.fe-developer-text');
 let codeLinkButton = document.querySelector('.code-link');
 let screenPosition = window.innerHeight;
 
+window.addEventListener('load', () => {
+    const loadWrapper = document.querySelector('.load-wrapper');
+    loadWrapper.style.display = 'none'
+})
+
 const elements = [
     [document.querySelector('.about-flex'), 'about-animate'],
     [document.querySelector('.zakimg-flex'), 'about-animate-two'],
@@ -53,7 +58,6 @@ let textArray = greetingsText.innerText.split('');
         if (index < 18) {
             index++
             greetingsText.innerText = textArray[0] += textArray[index]
-
         }
     }, 140);
 
