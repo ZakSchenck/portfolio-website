@@ -2,7 +2,8 @@
 const skillsImages = Array.from(document.querySelectorAll('.skills-img'));
 const imgOverlay = Array.from(document.querySelectorAll('.ipp-img-overlay'));
 const projectInfo = Array.from(document.querySelectorAll('.project-info'));
-let greetingsText = document.getElementById('greetings-text')
+let greetingsText = document.getElementById('greetings-text');
+let developerText = document.querySelector('.fe-developer-text');
 let screenPosition = window.innerHeight;
 
 const elements = [
@@ -54,3 +55,7 @@ let textArray = greetingsText.innerText.split('');
 
         }
     }, 160);
+
+    setInterval(function () {
+        developerText.classList.add('dev-animate')
+    }, 3000)
