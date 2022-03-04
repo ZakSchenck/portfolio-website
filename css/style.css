@@ -78,7 +78,7 @@ a {
 .landing-container div div {
   -webkit-animation: typewriter 1.5s linear infinite;
           animation: typewriter 1.5s linear infinite;
-  height: 55px;
+  height: 90%;
   width: 3px;
   background-color: lightgray;
   margin-top: 5px;
