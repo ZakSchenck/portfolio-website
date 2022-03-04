@@ -114,6 +114,18 @@ a {
         z-index: -1;
         position: fixed;
     }
+    div {
+        display: flex;
+        flex-direction: row;
+        div {
+            animation: typewriter 1.5s linear infinite;
+            height: 55px;
+            width: 3px;
+            background-color: lightgray;
+            margin-top: 5px;
+            margin-left: 12px;
+        }
+    }
     h1 {
         font-size: 50px;
         font-weight: 200;
@@ -683,6 +695,12 @@ footer {
       0% {top:0;}
       100% {top:-200%;}
       
+    }
+
+    @keyframes typewriter {
+        0% {opacity: 0}
+        50% {opacity: 1}
+        100% {opacity: 0}
     }
 
 /* Media Queries */

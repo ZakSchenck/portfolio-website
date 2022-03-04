@@ -65,6 +65,26 @@ a {
   position: fixed;
 }
 
+.landing-container div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.landing-container div div {
+  -webkit-animation: typewriter 1.5s linear infinite;
+          animation: typewriter 1.5s linear infinite;
+  height: 55px;
+  width: 3px;
+  background-color: lightgray;
+  margin-top: 5px;
+  margin-left: 12px;
+}
+
 .landing-container h1 {
   font-size: 50px;
   font-weight: 200;
@@ -1170,6 +1190,30 @@ footer img {
   }
   100% {
     top: -200%;
+  }
+}
+
+@-webkit-keyframes typewriter {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes typewriter {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
   }
 }
 

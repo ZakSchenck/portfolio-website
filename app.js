@@ -2,6 +2,7 @@
 const skillsImages = Array.from(document.querySelectorAll('.skills-img'));
 const imgOverlay = Array.from(document.querySelectorAll('.ipp-img-overlay'));
 const projectInfo = Array.from(document.querySelectorAll('.project-info'));
+let greetingsText = document.getElementById('greetings-text')
 let screenPosition = window.innerHeight;
 
 const elements = [
@@ -35,10 +36,21 @@ window.addEventListener('scroll', (e) => {
     })
 });
 
-
 const animateScroll = ([element, className]) => {
     if (element.getBoundingClientRect().top < screenPosition) {
         element.classList.add(className);
         element.style.opacity = '1';
     }
 }
+
+greetingsText.style.display = 'none'
+let textArray = greetingsText.innerText.split('');
+    let index = 0
+    setInterval(function () {
+        greetingsText.style.display = 'block'
+        if (index < 18) {
+            index++
+            greetingsText.innerText = textArray[0] += textArray[index]
+
+        }
+    }, 160);
