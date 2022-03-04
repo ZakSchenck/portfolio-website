@@ -4,6 +4,7 @@ const imgOverlay = Array.from(document.querySelectorAll('.ipp-img-overlay'));
 const projectInfo = Array.from(document.querySelectorAll('.project-info'));
 let greetingsText = document.getElementById('greetings-text');
 let developerText = document.querySelector('.fe-developer-text');
+let codeLinkButton = document.querySelector('.code-link');
 let screenPosition = window.innerHeight;
 
 const elements = [
@@ -59,3 +60,7 @@ let textArray = greetingsText.innerText.split('');
     setInterval(function () {
         developerText.classList.add('dev-animate')
     }, 3000)
+
+    setInterval(function () {
+        codeLinkButton.classList.add('dev-animate-button')
+    }, 3300)
