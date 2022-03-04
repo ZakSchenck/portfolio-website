@@ -55,15 +55,15 @@ let textArray = greetingsText.innerText.split('');
             greetingsText.innerText = textArray[0] += textArray[index]
 
         }
-    }, 160);
+    }, 140);
 
     setInterval(function () {
         developerText.classList.add('dev-animate')
-    }, 3050)
+    }, 2520)
 
     setInterval(function () {
         codeLinkButton.classList.add('dev-animate-button')
-    }, 3650)
+    }, 2900)
 
 
     
