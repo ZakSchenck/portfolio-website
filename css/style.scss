@@ -69,6 +69,7 @@ $darkerThemeColor: #018f85;
     margin: 0;
     color: $textColor;
     font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
 }
 
 html {
@@ -259,7 +260,7 @@ div.sticky {
         border-style: solid;
         border-width: 3px;
         text-decoration: none;
-        width: 200px;
+        width: 220px;
         @include buttonHover()
     }
     img {
