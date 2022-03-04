@@ -718,11 +718,9 @@ footer {
 
     @keyframes dev-animate {
         0% {
-            transform: translateX(-240px);
             opacity: 0;
           }
           100% {
-            transform: translateX(0);
             opacity: 1;
           }
     }

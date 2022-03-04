@@ -1244,26 +1244,18 @@ footer img {
 
 @-webkit-keyframes dev-animate {
   0% {
-    -webkit-transform: translateX(-240px);
-            transform: translateX(-240px);
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
     opacity: 1;
   }
 }
 
 @keyframes dev-animate {
   0% {
-    -webkit-transform: translateX(-240px);
-            transform: translateX(-240px);
     opacity: 0;
   }
   100% {
-    -webkit-transform: translateX(0);
-            transform: translateX(0);
     opacity: 1;
   }
 }
