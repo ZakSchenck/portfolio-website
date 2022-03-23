@@ -1404,9 +1404,6 @@ footer img {
     margin-right: auto;
     padding-right: 20px;
   }
-  .project-info {
-    font-size: 13px !important;
-  }
 }
 
 @media all and (max-width: 700px) {
@@ -1418,6 +1415,7 @@ footer img {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    height: 350px !important;
   }
   .grid-item-container img {
     width: 100%;
@@ -1439,6 +1437,9 @@ footer img {
 @media all and (max-width: 399px) {
   .images-flex img {
     max-width: 45px;
+  }
+  .project-info {
+    font-size: 14px !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

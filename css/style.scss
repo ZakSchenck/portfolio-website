@@ -827,9 +827,6 @@ footer {
       }
     }
   }
-  .project-info {
-    font-size: 13px !important;
-  }
 }
 @media all and (max-width: 700px) {
   .projects-grid {
@@ -839,6 +836,7 @@ footer {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
+    height: 350px !important; 
     img {
       width: 100%;
     }
@@ -861,5 +859,8 @@ footer {
 @media all and (max-width: 399px) {
   .images-flex img {
     max-width: 45px;
+  }
+  .project-info {
+    font-size: 14px !important;
   }
 }
