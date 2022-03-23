@@ -397,16 +397,13 @@ div.sticky {
 }
 
 .skills-section .images-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: -ms-grid;
+  display: grid;
+  position: relative;
+  grid-gap: 20px;
+  margin-top: 50px;
   -ms-grid-columns: 1fr 1fr 1fr;
       grid-template-columns: 1fr 1fr 1fr;
-  -ms-grid-rows: 1fr 1fr;
-      grid-template-rows: 1fr 1fr;
-  position: relative;
-  gap: 10px;
-  margin-top: 50px;
 }
 
 .skills-section .images-flex img {
@@ -1374,7 +1371,7 @@ footer img {
     gap: 0;
   }
   .images-flex img {
-    max-width: 70px;
+    max-width: 90px;
     height: auto;
   }
   .about-section {
@@ -1436,7 +1433,7 @@ footer img {
 
 @media all and (max-width: 399px) {
   .images-flex img {
-    max-width: 45px;
+    max-width: 65px;
   }
   .project-info {
     font-size: 14px !important;

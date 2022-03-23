@@ -298,12 +298,11 @@ div.sticky {
     background: linear-gradient($darkerThemeColor 50%, $backgroundColor 50%);
   }
   .images-flex {
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    display: grid;
     position: relative;
-    gap: 10px;
+    grid-gap: 20px;
     margin-top: 50px;
+    grid-template-columns: 1fr 1fr 1fr;
     img {
       width: 90px;
       height: auto;
@@ -797,7 +796,7 @@ footer {
     margin-right: auto;
     gap: 0;
     img {
-      max-width: 70px;
+      max-width: 90px;
       height: auto;
     }
   }
@@ -858,7 +857,7 @@ footer {
 
 @media all and (max-width: 399px) {
   .images-flex img {
-    max-width: 45px;
+    max-width: 65px;
   }
   .project-info {
     font-size: 14px !important;
