@@ -126,7 +126,7 @@ a {
   @include flexCenterMain(column);
   justify-content: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   clip-path: inset(0);
   background-color: #070724;
   #landing-bg {
