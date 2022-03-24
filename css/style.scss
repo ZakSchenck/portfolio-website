@@ -298,14 +298,14 @@ div.sticky {
     background: linear-gradient($darkerThemeColor 50%, $backgroundColor 50%);
   }
   .images-flex {
-    display: grid;
-    position: relative;
-    grid-gap: 20px;
+    display: flex;
+    flex-direction: row;
     margin-top: 50px;
-    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
     img {
       width: 90px;
       height: auto;
+      opacity: 0;
     }
   }
 }
@@ -499,31 +499,37 @@ footer {
 }
 
 #skills-img.img1-animate {
-  animation: img1-animate 0.7s linear;
+  animation: img1-animate 1s linear;
   animation-fill-mode: forwards;
 }
 
 #skills-img-2.img1-animate {
-  animation: img2-animate 0.7s linear;
-  animation-delay: 0.15s;
-  animation-fill-mode: forwards;
-}
-
-#skills-img-3.img1-animate {
-  animation: img3-animate 0.7s linear;
+  animation: img2-animate 1s linear;
   animation-delay: 0.3s;
   animation-fill-mode: forwards;
 }
 
+#skills-img-3.img1-animate {
+  animation: img3-animate 1s linear;
+  animation-delay: 0.6s;
+  animation-fill-mode: forwards;
+}
+
 #skills-img-4.img1-animate {
-  animation: img4-animate 0.7s linear;
-  animation-delay: 0.45s;
+  animation: img4-animate 1s linear;
+  animation-delay: 0.9s;
   animation-fill-mode: forwards;
 }
 
 #skills-img-5.img1-animate {
-  animation: img5-animate 0.7s linear;
-  animation-delay: 0.6s;
+  animation: img5-animate 1s linear;
+  animation-delay: 1.2s;
+  animation-fill-mode: forwards;
+}
+
+#skills-img-6.img1-animate {
+  animation: img6-animate 1s linear;
+  animation-delay: 1.5s;
   animation-fill-mode: forwards;
 }
 
@@ -596,60 +602,62 @@ footer {
 
 @keyframes img1-animate {
   0% {
-    transform: translateY(0);
+   opacity: 0;
   }
-  50% {
-    transform: translateY(-55px);
-  }
+
   100% {
-    transform: translateX(0);
     opacity: 1;
   }
 }
 
 @keyframes img2-animate {
   0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-55px);
-  }
-  100% {
-    transform: translateX(0);
-  }
+    opacity: 0;
+   }
+ 
+   100% {
+     opacity: 1;
+   }
 }
+
 @keyframes img3-animate {
   0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-55px);
-  }
-  100% {
-    transform: translateX(0);
-  }
+    opacity: 0;
+   }
+ 
+   100% {
+     opacity: 1;
+   }
 }
+
 @keyframes img4-animate {
   0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-55px);
-  }
-  100% {
-    transform: translateX(0);
-  }
+    opacity: 0;
+   }
+ 
+   100% {
+     opacity: 1;
+   }
 }
+
 @keyframes img5-animate {
   0% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-55px);
-  }
-  100% {
-    transform: translateX(0);
-  }
+    opacity: 0;
+   }
+ 
+   100% {
+     opacity: 1;
+   }
+}
+
+@keyframes img6-animate {
+  0% {
+    opacity: 0;
+   }
+ 
+   100% {
+     opacity: 1;
+   }
 }
 
 @keyframes grid-animate {
@@ -796,7 +804,7 @@ footer {
     margin-right: auto;
     gap: 0;
     img {
-      max-width: 90px;
+      max-width: 50px !important;
       height: auto;
     }
   }
@@ -835,7 +843,6 @@ footer {
     width: 95%;
     margin-left: auto;
     margin-right: auto;
-    height: 385px !important; 
     img {
       width: 100%;
     }
@@ -853,6 +860,9 @@ footer {
   .project-info {
     margin: 5px !important;
   }
+  .grid-item-container {
+    height: 385px !important; 
+  }
 }
 
 @media all and (max-width: 399px) {
@@ -861,5 +871,11 @@ footer {
   }
   .project-info {
     font-size: 14px !important;
+  }
+}
+
+@media all and (max-width: 355px) {
+  .images-flex img {
+    max-width: 30px !important;
   }
 }
