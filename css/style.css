@@ -290,7 +290,7 @@ div.sticky {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 125px;
-  max-width: 900px;
+  max-width: 950px;
   min-height: 400px;
   position: relative;
   margin-left: auto;
@@ -348,7 +348,7 @@ div.sticky {
 }
 
 .about-section img {
-  max-width: 400px;
+  max-width: 450px;
   height: auto;
   position: relative;
 }
