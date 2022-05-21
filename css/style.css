@@ -453,6 +453,13 @@ div.sticky {
   background-color: #ebe9e9;
 }
 
+.projects-grid .grid-item-container #backend {
+  position: absolute;
+  margin-top: 24px;
+  color: #0000EE;
+  text-decoration: underline;
+}
+
 .projects-grid .grid-item-container .project-info {
   position: absolute;
   top: 0;
